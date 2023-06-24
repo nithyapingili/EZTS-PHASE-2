@@ -1,0 +1,15 @@
+students_grade=[]
+students_grade.append((1,"rama"))
+students_grade.append((4,"ram"))
+students_grade.sort(reverse=True)
+print("yes")
+print(students_grade)
+students_grade.append((3,"janaki"))
+students_grade.sort(reverse=True)
+students_grade.append((2,"lakshman"))
+students_grade.sort(reverse=True)
+print("priority wise sorted")
+print(students_grade)
+print("original queue")
+while students_grade:
+    print(students_grade.pop())
